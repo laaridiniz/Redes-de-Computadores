@@ -1,4 +1,12 @@
-# Configuração do Docker Swarm e do balanceamento de carga
+<h1 align="center"> Load Balance </h1>
+
+## Conceito
+
+<p align="justify">O Load Balance ou balanceamento de carga é uma técnica utilizada para manter a estabilidade de um servidor quando o tráfego ou o volume de dados é muito grande. A aplicação dessa técnica tem como objetivo otimizar o tráfego de informações e garantir o funcionamento do sistema para o usuário, estabilizando a navegação. Em outras palavras, o balanceamento de carga consiste em distribuir as milhares de solicitações e dados dos usuários entre os diferentes servidores, otimizando a gestão de infraestrutura de uma aplicação.<br>
+<br>
+Essa técnica não impede completamente que surjam problemas técnicos em razão da sobrecarga, no entanto, ele não permite que estas instabilidades cheguem até o usuário e prejudiquem sua experiência de navegação. Assim, permite que sejam feitos os ajustes necessários no sistema sem que os usuários percebam.</p>
+
+## Configuração do Docker Swarm e do balanceamento de carga
 
 Na plataforma da AWS, foram realizados os seguintes passos:
 
@@ -127,3 +135,15 @@ docker swarm join --token SWMTKN-1-4nrz5g5u36fx8c5988edwrsgt9som7h1g05jc45wcgz09
 ```
 nano /var/lib/docker/volumes/app/_data/index.html
 ```
+
+## Referências
+
+[Balanceamento de carga de rede – Conceito e observações](https://learn.microsoft.com/pt-br/troubleshoot/windows-server/networking/network-load-balancing-concept-notes)
+
+[O que é Balanceamento de carga?](https://aws.amazon.com/pt/what-is/load-balancing/#:~:text=Balanceamento%20de%20carga%20de%20rede,IP%20est%C3%A1tico%20a%20v%C3%A1rios%20servidores.)
+
+[Network Load Balancing](https://learn.microsoft.com/pt-br/windows-server/networking/technologies/network-load-balancing)
+
+[Swarm mode overview](https://docs.docker.com/engine/swarm/)
+
+[Introdução ao modo swarm](https://learn.microsoft.com/pt-br/virtualization/windowscontainers/manage-containers/swarm-mode)
