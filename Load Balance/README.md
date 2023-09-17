@@ -115,8 +115,7 @@ docker swarm init
 13. Ao iniciar o Docker Swarm será gerada uma chave (token). Esse token será inserido nas máquinas de balanceamento (node1 e node2) com um comando semelhante a este:
 
 ```
-docker swarm join --token SWMTKN-1-0x3gimqxscvxspokupwhutw8wspjujsud3hjd5s4wudmg1er0s-boaulopoluofrimd7mknovx87
-172.31.34.172:2377
+docker swarm join --token SWMTKN-1-4nrz5g5u36fx8c5988edwrsgt9som7h1g05jc45wcgz094uca2-eg4fwqnpovc65xx821dhhsizh 172.31.45.46:2377
 ```
 
 14. Com isso, o Docker Swarm estará configurado com balanceamento de carga usando Nginx e um volume para o site.
