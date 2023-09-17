@@ -56,9 +56,9 @@ Este arquivo é o responsável por determinar as configurações do proxy.
 http {
 
 upstream all {
-	server 172.31.0.37:80; // seu ip + porta
-	server 172.31.0.151:80; // seu ip + porta
-	server 172.31.0.149:80; // seu ip + porta
+	server 34.226.111.180:80; // seu ip + porta
+	server 52.6.254.204:80; // seu ip + porta
+	server 54.166.87.177:80; // seu ip + porta
 }
 
 server {
