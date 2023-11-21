@@ -2,9 +2,9 @@
 
 ## Conceito
 
-<p align="justify">A Rede Privada Virtual (ou VPN) permite que seja feita uma conexão de rede protegida ao usar redes públicas. Essa proteção ocorre por meio da criptografia do tráfego de internet, responsável por disfarçar a identidade online dos dispositivos envolvidos, tornando mais difícil para terceiros rastrear as atividades online e roubar os dados em trânsito. A criptografia ocorre em tempo real.<br>
+<p align="justify">A Rede Privada Virtual (ou VPN) permite que seja feita uma conexão de rede protegida ao usar redes públicas. Essa proteção ocorre por meio da criptografia do tráfego de internet, responsável por disfarçar a identidade online dos dispositivos envolvidos, tornando mais difícil para terceiros rastrear as atividades online e roubar os dados em trânsito.<br>
 <br>
-Essa técnica não impede completamente que surjam problemas técnicos em razão da sobrecarga, no entanto, ele não permite que estas instabilidades cheguem até o usuário e prejudiquem sua experiência de navegação. Assim, permite que sejam feitos os ajustes necessários no sistema sem que os usuários percebam.</p>
+A VPN mascara os endereços IP do usuário e criptografa os dados para que se tornem ilegíveis por qualquer pessoa não autorizada a recebê-los. Essa criptografia ocorre em tempo real e, em razão dela, é necessário ter uma chave de criptografia para poder acessar os dados.</p>
 
 ## Configuração do Servidor
 
